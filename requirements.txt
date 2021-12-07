@@ -3,8 +3,8 @@ pandas
 pylint
 pytest
 black
-click==7.1.2
-Flask==1.1.2
-joblib==1.0.1
-pytest-cov==2.11.1
-requests==2.25.1
+click
+Flask
+joblib
+pytest-cov
+requests
