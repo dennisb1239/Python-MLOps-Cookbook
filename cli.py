@@ -15,7 +15,7 @@ def predictcli(weight):
 
     result = predict(weight)
     inches = result["height_inches"]
-    human_readable = result["height_human_readable"]
+    #human_readable = result["height_human_readable"]
     if int(inches) > 72:
         click.echo(click.style(result, bg="green", fg="white"))
     else:
